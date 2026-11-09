@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Rida Hamada – Application to Centria UAS – Smart Devices and Solutions 2027</title>
+<meta name="description" content="Application of Rida Hamada (ZS7016) to Centria University of Applied Sciences, B.Eng. IT, Smart Devices and Solutions.">
+<style>
+:root{--bg:#04101f;--bg2:#0a2342;--line:#1c4a7a;--cy:#3fe0f0;--am:#ffb81c;--tx:#eaf4ff;--mu:#9db8d6}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:radial-gradient(ellipse at 50% 0,#0d3a6b 0,var(--bg) 60%) fixed;color:var(--tx);font:17px/1.65 system-ui,-apple-system,"Segoe UI",Roboto,"Noto Sans Arabic",Arial,sans-serif;min-height:100vh}
+body:before{content:"";position:fixed;inset:0;background-image:linear-gradient(var(--line) 1px,transparent 1px),linear-gradient(90deg,var(--line) 1px,transparent 1px);background-size:48px 48px;opacity:.14;pointer-events:none;mask-image:radial-gradient(circle at 50% 30%,#000,transparent 75%);-webkit-mask-image:radial-gradient(circle at 50% 30%,#000,transparent 75%)}
+a{color:var(--cy)}
+a:focus-visible,button:focus-visible{outline:3px solid var(--am);outline-offset:3px}
+.wrap{position:relative;max-width:1000px;margin:0 auto;padding:0 20px 60px}
+.top{background:#020a15;border-bottom:2px solid var(--cy);padding:12px 20px;text-align:center;font-size:15px}
+.top b{color:var(--am);letter-spacing:.04em}
+.top .u{display:block;font-size:20px;font-weight:700}
+.top .s{color:var(--mu)}
+.langs{display:flex;flex-wrap:wrap;justify-content:center;gap:10px;margin:22px 0 6px}
+.langs button{font:inherit;font-weight:600;font-size:15px;padding:9px 18px;border-radius:999px;border:2px solid var(--line);background:#071a33;color:var(--tx);cursor:pointer}
+.langs button[aria-pressed=true]{background:var(--cy);color:#02202b;border-color:var(--cy)}
+.hero{text-align:center;padding:26px 0 10px}
+.kick{color:var(--am);font-weight:600}
+h1{font-size:clamp(30px,6vw,56px);line-height:1.12;margin:.3em 0;background:linear-gradient(90deg,#fff,var(--cy));-webkit-background-clip:text;background-clip:text;color:transparent}
+.lead{color:var(--mu);font-size:19px;max-width:680px;margin:0 auto}
+.intro{max-width:680px;margin:20px auto 0}
+.rt{text-align:center;margin:40px 0 0;font-size:22px;font-weight:700}
+.ring{position:relative;width:min(94vw,470px);aspect-ratio:1;margin:10px auto 30px}
+.ring:before,.ring:after{content:"";position:absolute;border-radius:50%;border:2px dashed var(--line)}
+.ring:before{inset:12%;animation:spin 60s linear infinite}
+.ring:after{inset:2%;border-style:solid;border-color:#12365c}
+@keyframes spin{to{transform:rotate(360deg)}}
+.core{position:absolute;inset:34%;border-radius:50%;background:radial-gradient(circle,#0f4a85,#06213f);border:3px solid var(--cy);display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;box-shadow:0 0 40px #3fe0f055;line-height:1.2;font-size:clamp(11px,3vw,14px)}
+.core b{font-size:clamp(16px,4.4vw,22px);color:var(--am)}
+.node{position:absolute;width:25%;aspect-ratio:1;transform:translate(-50%,-50%);border-radius:50%;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;text-decoration:none;color:var(--tx);background:#071f3c;border:3px solid var(--cy);font-size:clamp(11px,2.9vw,14px);font-weight:700;line-height:1.15;padding:4px;transition:transform .2s,background .2s}
+.node span{font-size:clamp(20px,5.5vw,30px);line-height:1.1}
+.node:hover,.node:focus-visible{background:var(--cy);color:#02202b;transform:translate(-50%,-50%) scale(1.1)}
+section{margin:44px 0}
+h2{font-size:26px;margin:0 0 14px;color:var(--cy)}
+ul.ach{list-style:none;padding:0;margin:0;display:grid;gap:12px}
+ul.ach li{padding:14px 18px;border-inline-start:4px solid var(--am);background:#071a33;border-radius:12px}
+.stats{display:flex;flex-wrap:wrap;gap:16px;justify-content:center}
+.stat{width:190px;aspect-ratio:1;border-radius:50%;border:3px solid var(--am);display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;padding:18px;background:#071a33;line-height:1.3}
+.stat b{font-size:34px;color:var(--am);line-height:1.1}
+.box{background:#071a33;border:1px solid var(--line);border-radius:18px;padding:20px 24px}
+.letter h3{color:var(--cy);margin:1.4em 0 .4em}.letter p,.letter li{max-width:75ch}.letter{line-height:1.75}
+.encl{padding-inline-start:22px}
+.btn{display:inline-block;margin-top:12px;padding:12px 26px;border-radius:999px;background:var(--am);color:#2a1d00;font-weight:700;text-decoration:none}
+footer{text-align:center;color:var(--mu);border-top:1px solid var(--line);padding-top:24px}
+footer b{color:var(--tx)}
+[dir=rtl] .stat,[dir=rtl] .node{direction:rtl}
+@media (prefers-reduced-motion:reduce){.ring:before{animation:none}html{scroll-behavior:auto}.node{transition:none}}
+</style>
+</head>
+<body>
+<div class="top">
+<span class="u">Centria University of Applied Sciences</span>
+<span class="s">A higher education institution</span><br>
+<span><span data-i="evl"></span>: <b>Study in Europe Rabat</b></span> &nbsp;|&nbsp;
+<span><span data-i="bdl"></span>: <b>ZS7016</b> &ndash; RIDA HAMADA &ndash; MOROCCO &ndash; <a href="mailto:Hamada.rida.321@proton.me">Hamada.rida.321@proton.me</a></span>
+</div>
+<div class="wrap">
+<nav class="langs" aria-label="Language" id="langs"></nav>
+<header class="hero">
+<div class="kick" data-i="kick"></div>
+<h1 data-i="h1"></h1>
+<p class="lead" data-i="lead"></p>
+<p class="intro" data-i="intro"></p>
+</header>
+
+<div class="rt" data-i="rt"></div>
+<div class="ring" id="ring">
+<div class="core"><b>ZS7016</b>RIDA HAMADA<br>MOROCCO</div>
+</div>
+
+<section>
+<h2 data-i="at"></h2>
+<ul class="ach"><li data-i="a1"></li><li data-i="a2"></li><li data-i="a3"></li><li data-i="a4"></li></ul>
+</section>
+
+<section>
+<h2 data-i="pt"></h2>
+<div class="stats">
+<div class="stat"><b>0</b><span data-i="p1"></span></div>
+<div class="stat"><b>15–30</b><span data-i="p2"></span></div>
+<div class="stat"><b>240</b><span data-i="p3"></span></div>
+</div>
+</section>
+
+<section>
+<h2 data-i="wt"></h2>
+<div class="box" data-i="w"></div>
+</section>
+
+<section id="letter">
+<h2 data-i="lt"></h2>
+<div class="box"><p id="lnote" style="color:var(--am)"></p><div id="lbody" class="letter"></div>
+<a class="btn" href="https://drive.google.com/file/d/1Xvm3dc4SAlpZl2O5bSrBT_5z31p-Zu4X/view?usp=drive_link" target="_blank" rel="noopener" data-i="ol"></a></div>
+</section>
+
+<section id="encl">
+<h2 data-i="et"></h2>
+<div class="box">
+<ul class="encl">
+<li>Diplôme du Baccalauréat, Sciences Physiques</li>
+<li>Diplôme de Technicien Spécialisé, Électromécanique</li>
+<li>IHK-FOSA Recognition, Elektroniker für Automatisierungstechnik + Qualifizierungsplan</li>
+<li>Work certificates: Actemium / GMCE II, Univers Acier, SE Solution</li>
+<li>Certificates: Cisco Cybersecurity, Microsoft Azure-900, IAEA Information and Computer Security, UNCTAD IMTS</li>
+<li>CV</li>
+</ul>
+<a class="btn" href="https://drive.google.com/drive/folders/1oXw4P9hMINmI_QeQ2DOA4p6F0yhshl_u?usp=drive_link" target="_blank" rel="noopener" data-i="dl"></a>
+</div>
+</section>
+
+<footer>
+<p data-i="cl"></p>
+<p><b>Rida Hamada</b> &ndash; Safi, Morocco<br><a href="mailto:Hamada.rida.321@proton.me">Hamada.rida.321@proton.me</a></p>
+</footer>
+</div>
+
+<script>
+var T={
+en:{r6:"Letter",lt:"Full motivation letter",ol:"Open the original letter",ln:"The full letter in this language is being added. The complete English letter is shown below.",n:"English",d:"ltr",evl:"Event",bdl:"Candidate badge",kick:"Application · Rolling Admission 2027",h1:"Rida Hamada: Smart Devices and Solutions",lead:"B.Eng. Information Technology at Centria UAS, Kokkola, through the UAS International Exam.",intro:"I am an Electronics Technician for Automation Technology (IHK-FOSA) from Safi, Morocco. After five years of industrial work, I want to become an engineer who designs intelligent connected systems. I met the Centria team in Rabat on 8 November 2026, and that meeting is the reason for this application.",rt:"Explore my application",r1:"Questionnaire",r2:"Portfolio",r3:"Video",r4:"AI model",r5:"Enclosures",vt:"My video",at:"Achievements",a1:"Commissioned turbines and CHP plants for OCP Group, TAQA Morocco and STMicroelectronics.",a2:"Installed electrical systems up to 6.6 kV, tested 1–36 kV switchgear, integrated SCADA.",a3:"German recognition IHK-FOSA (2024) and Qualifizierungsplan IHK Berlin (2025).",a4:"Certificates: Cisco Cybersecurity, Microsoft Azure-900, IAEA, UNCTAD IMTS.",pt:"Recognition plan",p1:"ECTS at entry",p2:"ECTS expected through RPL",p3:"ECTS Bachelor, EQF 6",wt:"Why Centria and Finland",w:"Centria is practical: real projects, the IT Lab and cooperation with companies. My IHK plan points to digitalisation, data protection and information security, exactly what Smart Devices and Solutions teaches. I ask only for a fair evaluation and the chance to prove my value through my studies.",et:"Enclosures",dl:"Open the document folder",cl:"Thank you to Ms. Francesca Cucinotta and the Centria team. I am available for any document, interview or test."},
+fi:{r6:"Kirje",lt:"Koko motivaatiokirje",ol:"Avaa alkuperäinen kirje",ln:"Koko kirje tällä kielellä lisätään. Täydellinen englanninkielinen kirje näkyy alla.",n:"Suomi",d:"ltr",evl:"Tapahtuma",bdl:"Hakijan tunnus",kick:"Hakemus · Jatkuva haku 2027",h1:"Rida Hamada: Smart Devices and Solutions",lead:"tietotekniikan insinööri (AMK) Centriassa Kokkolassa, UAS International Exam -kokeen kautta.",intro:"Olen automaatiotekniikan elektroniikka-asentaja (IHK-FOSA) Safista, Marokosta. Viiden teollisuusvuoden jälkeen haluan insinööriksi, joka suunnittelee älykkäitä yhdistettyjä järjestelmiä. Tapasin Centrian edustajat Rabatissa 8. marraskuuta 2026, ja se tapaaminen on tämän hakemuksen syy.",rt:"Tutustu hakemukseeni",r1:"Kysely",r2:"Portfolio",r3:"Video",r4:"Tekoälymalli",r5:"Liitteet",vt:"Videoni",at:"Saavutukset",a1:"Turbiinien ja CHP-voimaloiden käyttöönotto: OCP Group, TAQA Morocco, STMicroelectronics.",a2:"Sähköjärjestelmien asennus 6,6 kV:iin asti, 1–36 kV kytkinlaitteiden testaus, SCADA-integrointi.",a3:"Saksalainen tunnustus IHK-FOSA (2024) ja Qualifizierungsplan IHK Berlin (2025).",a4:"Todistukset: Cisco Cybersecurity, Microsoft Azure-900, IAEA, UNCTAD IMTS.",pt:"Tunnustamissuunnitelma",p1:"op sisäänpääsyssä",p2:"op odotettavissa AHOT:n kautta",p3:"op, tradenomi/insinööri, EQF 6",wt:"Miksi Centria ja Suomi",w:"Centria on käytännönläheinen: oikeita projekteja, IT Lab ja yritysyhteistyö. IHK-suunnitelmani osoittaa digitalisaatiota, tietosuojaa ja tietoturvaa, joita Smart Devices and Solutions juuri opettaa. Pyydän vain oikeudenmukaista arviointia ja mahdollisuutta osoittaa osaamiseni opinnoissa.",et:"Liitteet",dl:"Avaa asiakirjakansio",cl:"Kiitos Francesca Cucinotta ja Centrian tiimi. Toimitan mielelläni lisäasiakirjoja sekä osallistun haastatteluun tai kokeeseen."},
+ar:{r6:"الرسالة",lt:"رسالة الدافع كاملة",ol:"افتح الرسالة الأصلية",ln:"الترجمة الكاملة بهذه اللغة قيد الإضافة. الرسالة الإنجليزية الكاملة معروضة أدناه.",n:"العربية",d:"rtl",evl:"الحدث",bdl:"رمز بطاقة المرشح",kick:"طلب الالتحاق · القبول المستمر 2027",h1:"رضا حمادة: Smart Devices and Solutions",lead:"بكالوريوس الهندسة في تكنولوجيا المعلومات بجامعة Centria للعلوم التطبيقية في كوكولا، عبر امتحان UAS الدولي.",intro:"أنا تقني إلكترونيات في تقنية الأتمتة (معترف به من IHK-FOSA) من آسفي بالمغرب. بعد خمس سنوات من العمل الصناعي أريد أن أصبح مهندساً يصمم أنظمة ذكية مترابطة. التقيت فريق Centria في الرباط يوم 8 نوفمبر 2026، وذلك اللقاء هو سبب هذا الطلب.",rt:"استكشف طلبي",r1:"الاستبيان",r2:"المحفظة",r3:"الفيديو",r4:"نموذج الذكاء",r5:"المرفقات",vt:"الفيديو الخاص بي",at:"الإنجازات",a1:"تشغيل التوربينات ومحطات التوليد المشترك لمجموعة OCP وTAQA المغرب وSTMicroelectronics.",a2:"تركيب أنظمة كهربائية حتى 6.6 كيلوفولت، واختبار مفاتيح 1–36 كيلوفولت، ودمج أنظمة SCADA.",a3:"اعتراف ألماني IHK-FOSA (2024) وخطة التأهيل Qualifizierungsplan من IHK برلين (2025).",a4:"شهادات: Cisco للأمن السيبراني، Microsoft Azure-900، IAEA، UNCTAD IMTS.",pt:"خطة الاعتراف",p1:"وحدة ECTS عند القبول",p2:"وحدة ECTS متوقعة عبر الاعتراف بالتعلم السابق",p3:"وحدة ECTS للبكالوريوس، EQF 6",wt:"لماذا Centria وفنلندا",w:"Centria جامعة عملية: مشاريع حقيقية، ومختبر IT Lab، وتعاون مع الشركات. خطتي من IHK تشير إلى الرقمنة وحماية البيانات وأمن المعلومات، وهذا بالضبط ما يدرّسه برنامج Smart Devices and Solutions. أطلب فقط تقييماً عادلاً وفرصة لإثبات قيمتي من خلال دراستي.",et:"المرفقات",dl:"افتح مجلد الوثائق",cl:"شكراً للسيدة Francesca Cucinotta وفريق Centria. أنا جاهز لتقديم أي وثيقة أو إجراء أي مقابلة أو اختبار."},
+fr:{r6:"Lettre",lt:"Lettre de motivation complète",ol:"Ouvrir la lettre originale",ln:"La lettre complète dans cette langue est en cours d'ajout. La lettre anglaise complète est affichée ci-dessous.",n:"Français",d:"ltr",evl:"Événement",bdl:"Badge candidat",kick:"Candidature · Admission continue 2027",h1:"Rida Hamada : Smart Devices and Solutions",lead:"Bachelor of Engineering en informatique à Centria UAS, Kokkola, via l'examen international UAS.",intro:"Je suis technicien en électronique pour la technique d'automatisation (IHK-FOSA), originaire de Safi, au Maroc. Après cinq ans de travail industriel, je veux devenir ingénieur et concevoir des systèmes intelligents connectés. J'ai rencontré l'équipe de Centria à Rabat le 8 novembre 2026, et cette rencontre est la raison de cette candidature.",rt:"Découvrir ma candidature",r1:"Questionnaire",r2:"Portfolio",r3:"Vidéo",r4:"Modèle IA",r5:"Annexes",vt:"Ma vidéo",at:"Réalisations",a1:"Mise en service de turbines et de centrales de cogénération pour OCP Group, TAQA Morocco et STMicroelectronics.",a2:"Installation de systèmes électriques jusqu'à 6,6 kV, essais d'appareillage 1–36 kV, intégration SCADA.",a3:"Reconnaissance allemande IHK-FOSA (2024) et Qualifizierungsplan IHK Berlin (2025).",a4:"Certificats : Cisco Cybersecurity, Microsoft Azure-900, AIEA, UNCTAD IMTS.",pt:"Plan de reconnaissance",p1:"ECTS à l'entrée",p2:"ECTS attendus via la RPL",p3:"ECTS du Bachelor, EQF 6",wt:"Pourquoi Centria et la Finlande",w:"Centria est pratique : de vrais projets, l'IT Lab et la coopération avec les entreprises. Mon plan IHK pointe la digitalisation, la protection des données et la sécurité de l'information, exactement ce qu'enseigne Smart Devices and Solutions. Je demande seulement une évaluation équitable et la chance de prouver ma valeur par mes études.",et:"Annexes",dl:"Ouvrir le dossier de documents",cl:"Merci à Mme Francesca Cucinotta et à l'équipe de Centria. Je reste disponible pour tout document, entretien ou test."},
+sv:{r6:"Brev",lt:"Hela motivationsbrevet",ol:"Öppna originalbrevet",ln:"Hela brevet på detta språk läggs till. Det kompletta engelska brevet visas nedan.",n:"Svenska",d:"ltr",evl:"Evenemang",bdl:"Kandidatbricka",kick:"Ansökan · Löpande antagning 2027",h1:"Rida Hamada: Smart Devices and Solutions",lead:"Ingenjör (YH) i informationsteknik vid Centria UAS i Kokkola, via UAS International Exam.",intro:"Jag är elektroniktekniker inom automationsteknik (IHK-FOSA) från Safi i Marocko. Efter fem år i industrin vill jag bli ingenjör som utformar intelligenta, uppkopplade system. Jag träffade Centrias team i Rabat den 8 november 2026, och det mötet är anledningen till ansökan.",rt:"Utforska min ansökan",r1:"Enkät",r2:"Portfölj",r3:"Video",r4:"AI-modell",r5:"Bilagor",vt:"Min video",at:"Meriter",a1:"Driftsättning av turbiner och kraftvärmeverk för OCP Group, TAQA Morocco och STMicroelectronics.",a2:"Installation av elsystem upp till 6,6 kV, test av 1–36 kV ställverk, SCADA-integration.",a3:"Tyskt erkännande IHK-FOSA (2024) och Qualifizierungsplan IHK Berlin (2025).",a4:"Intyg: Cisco Cybersecurity, Microsoft Azure-900, IAEA, UNCTAD IMTS.",pt:"Erkännandeplan",p1:"hp vid antagning",p2:"hp väntas via validering",p3:"hp kandidatexamen, EQF 6",wt:"Varför Centria och Finland",w:"Centria är praktiskt: verkliga projekt, IT Lab och samarbete med företag. Min IHK-plan pekar på digitalisering, dataskydd och informationssäkerhet, precis vad Smart Devices and Solutions undervisar i. Jag ber bara om en rättvis bedömning och chansen att bevisa mitt värde genom mina studier.",et:"Bilagor",dl:"Öppna dokumentmappen",cl:"Tack till Francesca Cucinotta och Centrias team. Jag står till förfogande för alla dokument, intervjuer eller prov."},
+de:{r6:"Brief",lt:"Vollständiges Motivationsschreiben",ol:"Originalbrief öffnen",ln:"Der vollständige Brief in dieser Sprache wird ergänzt. Der komplette englische Brief steht unten.",n:"Deutsch",d:"ltr",evl:"Veranstaltung",bdl:"Bewerber-Badge",kick:"Bewerbung · Laufende Zulassung 2027",h1:"Rida Hamada: Smart Devices and Solutions",lead:"Bachelor of Engineering Informationstechnik an der Centria UAS in Kokkola, über die UAS International Exam.",intro:"Ich bin Elektroniker für Automatisierungstechnik (IHK-FOSA) aus Safi, Marokko. Nach fünf Jahren Industrieerfahrung möchte ich Ingenieur werden und intelligente vernetzte Systeme entwickeln. Ich habe das Centria-Team am 8. November 2026 in Rabat getroffen, und dieses Treffen ist der Grund für diese Bewerbung.",rt:"Meine Bewerbung entdecken",r1:"Fragebogen",r2:"Portfolio",r3:"Video",r4:"KI-Modell",r5:"Anlagen",vt:"Mein Video",at:"Erfolge",a1:"Inbetriebnahme von Turbinen und BHKW für OCP Group, TAQA Morocco und STMicroelectronics.",a2:"Elektroinstallation bis 6,6 kV, Prüfung von 1–36 kV Schaltanlagen, SCADA-Integration.",a3:"Deutsche Anerkennung IHK-FOSA (2024) und Qualifizierungsplan IHK Berlin (2025).",a4:"Zertifikate: Cisco Cybersecurity, Microsoft Azure-900, IAEA, UNCTAD IMTS.",pt:"Anerkennungsplan",p1:"ECTS bei Studienbeginn",p2:"ECTS erwartet über RPL",p3:"ECTS Bachelor, EQF 6",wt:"Warum Centria und Finnland",w:"Centria ist praxisnah: echte Projekte, das IT Lab und Zusammenarbeit mit Unternehmen. Mein IHK-Plan nennt Digitalisierung, Datenschutz und Informationssicherheit, genau das lehrt Smart Devices and Solutions. Ich bitte nur um eine faire Prüfung und die Chance, mich im Studium zu beweisen.",et:"Anlagen",dl:"Dokumentenordner öffnen",cl:"Vielen Dank an Frau Francesca Cucinotta und das Centria-Team. Für Unterlagen, Gespräche oder Tests stehe ich gern bereit."}
+};
+T.fi.lead="Tietotekniikan insinööri (AMK) Centriassa Kokkolassa, UAS International Exam -kokeen kautta.";
+T.fi.p3="op, insinööri (AMK), EQF 6";
+var R=[["r1","📝","https://ridahd123.github.io/HAMADA-RIDA---Study-in-Europe-Fair-Morocco---8th-November-2026-University-Evaluation-Platform/"],
+["r2","💼","https://ridahd123.github.io/rida-Hamada-Elektroniker-fuer--Automatisierungstechnik-2029/"],
+["r3","▶️","https://youtu.be/_OOk257t5rY"],
+["r4","🤖","https://www.linkedin.com/posts/hamada-rida-pmp%C2%AE-pspo%C2%AE-open-to-work-a70522215_cybersecurity-privacyfirst-digitalsovereignty-ugcPost-7398112270146347008-iTOI/?utm_source=share&utm_medium=member_desktop&rcm=ACoAADZcQXQBFWYaXuRtRDZiRAqAzx-nRk3Pr9o"],
+["r5","📎","#encl"],
+["r6","✉️","https://drive.google.com/file/d/1Xvm3dc4SAlpZl2O5bSrBT_5z31p-Zu4X/view?usp=drive_link"]];
+var ring=document.getElementById("ring"),nodes={};
+R.forEach(function(r,i){
+  var a=document.createElement("a"),ang=(i*60-90)*Math.PI/180;
+  a.className="node";a.href=r[2];
+  if(r[2].charAt(0)!=="#"){a.target="_blank";a.rel="noopener"}
+  a.style.left=(50+38*Math.cos(ang))+"%";a.style.top=(50+38*Math.sin(ang))+"%";
+  a.innerHTML="<span>"+r[1]+"</span><i style='font-style:normal'></i>";
+  ring.appendChild(a);nodes[r[0]]=a.lastChild;
+});
+var box=document.getElementById("langs");
+window.LETTER=window.LETTER||{};
+var HAS={en:1,fi:1,ar:1,fr:1,sv:1,de:1};
+function showLetter(l){
+  var t=T[l]||T.en;
+  function put(){var ok=window.LETTER[l];document.getElementById("lbody").innerHTML=window.LETTER[l]||window.LETTER.en||"";document.getElementById("lnote").textContent=ok?"":t.ln}
+  if(window.LETTER[l]||!HAS[l]){put();return}
+  var sc=document.createElement("script");sc.src="letter-"+l+".js";sc.onload=put;sc.onerror=put;document.head.appendChild(sc);
+}
+function setLang(l){
+  var t=T[l]||T.en;
+  document.documentElement.lang=l;document.documentElement.dir=t.d;
+  document.querySelectorAll("[data-i]").forEach(function(e){var v=t[e.getAttribute("data-i")];if(v)e.textContent=v});
+  for(var k in nodes)nodes[k].textContent=t[k];
+  document.title="Rida Hamada – Centria UAS – Smart Devices and Solutions 2027";
+  showLetter(l);
+  box.querySelectorAll("button").forEach(function(b){b.setAttribute("aria-pressed",b.dataset.l===l)});
+  try{localStorage.setItem("lang",l)}catch(e){}
+}
+["fi","ar","fr","en","sv","de"].forEach(function(l){
+  var b=document.createElement("button");b.type="button";b.dataset.l=l;b.textContent=T[l].n;
+  b.addEventListener("click",function(){setLang(l)});box.appendChild(b);
+});
+var s="en";try{s=localStorage.getItem("lang")||"en"}catch(e){}
+setLang(T[s]?s:"en");
+</script>
+</body>
+</html>
